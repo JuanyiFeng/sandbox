@@ -1,0 +1,27 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "just an angular sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanyiFeng/sandbox.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Juanyi Feng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanyiFeng/sandbox/issues"
+  },
+  "homepage": "https://github.com/JuanyiFeng/sandbox",
+  "dependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0"
+  }
+}

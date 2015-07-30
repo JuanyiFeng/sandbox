@@ -1,0 +1,143 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-connect',
+1 verbose cli   '—-save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'gulp-connect', null ]
+7 verbose cache add name=undefined spec="gulp-connect" args=["gulp-connect",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'gulp-connect',
+8 verbose parsed url   path: 'gulp-connect',
+8 verbose parsed url   href: 'gulp-connect' }
+9 verbose cache add [ '—-save', null ]
+10 verbose cache add name=undefined spec="—-save" args=["—-save",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '—-save',
+11 verbose parsed url   path: '—-save',
+11 verbose parsed url   href: '—-save' }
+12 silly lockFile 08293c24-gulp-connect gulp-connect
+13 verbose lock gulp-connect /Users/jfeng/.npm/08293c24-gulp-connect.lock
+14 silly lockFile 7c13fe25-save —-save
+15 verbose lock —-save /Users/jfeng/.npm/7c13fe25-save.lock
+16 silly lockFile 08293c24-gulp-connect gulp-connect
+17 silly lockFile 08293c24-gulp-connect gulp-connect
+18 silly lockFile 7c13fe25-save —-save
+19 silly lockFile 7c13fe25-save —-save
+20 verbose addNamed [ 'gulp-connect', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 7e07fb61-gulp-connect gulp-connect@
+23 verbose lock gulp-connect@ /Users/jfeng/.npm/7e07fb61-gulp-connect.lock
+24 verbose addNamed [ '—-save', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 0d530c5b-save —-save@
+27 verbose lock —-save@ /Users/jfeng/.npm/0d530c5b-save.lock
+28 silly addNameRange { name: 'gulp-connect', range: '*', hasData: false }
+29 silly addNameRange { name: '—-save', range: '*', hasData: false }
+30 verbose request where is /artifactory/api/npm/npm-virtual/—-save
+31 verbose request registry http://repoprd.fngn.com:8081/
+32 verbose request id dd4b9d71254aa896
+33 verbose url raw /artifactory/api/npm/npm-virtual/—-save
+34 verbose url resolving [ 'http://repoprd.fngn.com:8081/',
+34 verbose url resolving   './artifactory/api/npm/npm-virtual/%E2%80%94-save' ]
+35 verbose url resolved http://repoprd.fngn.com:8081/artifactory/api/npm/npm-virtual/%E2%80%94-save
+36 verbose request where is http://repoprd.fngn.com:8081/artifactory/api/npm/npm-virtual/%E2%80%94-save
+37 info trying registry request attempt 1 at 16:39:42
+38 http GET http://repoprd.fngn.com:8081/artifactory/api/npm/npm-virtual/%E2%80%94-save
+39 verbose registry.get http://repoprd.fngn.com:8081/artifactory/api/npm/npm-virtual/gulp-connect not expired, no request
+40 silly addNameRange number 2 { name: 'gulp-connect', range: '*', hasData: true }
+41 silly addNameRange versions [ 'gulp-connect',
+41 silly addNameRange   [ '0.7.0',
+41 silly addNameRange     '0.6.0',
+41 silly addNameRange     '0.4.0',
+41 silly addNameRange     '0.9.0',
+41 silly addNameRange     '2.1.0',
+41 silly addNameRange     '1.0.10',
+41 silly addNameRange     '0.3.1',
+41 silly addNameRange     '0.3.0',
+41 silly addNameRange     '0.8.0',
+41 silly addNameRange     '0.2.0',
+41 silly addNameRange     '2.0.1',
+41 silly addNameRange     '1.1.0',
+41 silly addNameRange     '0.1.1',
+41 silly addNameRange     '2.0.0',
+41 silly addNameRange     '1.1.1',
+41 silly addNameRange     '0.1.2',
+41 silly addNameRange     '1.0.2',
+41 silly addNameRange     '1.0.1',
+41 silly addNameRange     '1.0.0',
+41 silly addNameRange     '2.2.0',
+41 silly addNameRange     '1.0.6',
+41 silly addNameRange     '1.0.5',
+41 silly addNameRange     '1.0.4',
+41 silly addNameRange     '2.0.6',
+41 silly addNameRange     '1.0.3',
+41 silly addNameRange     '2.0.5',
+41 silly addNameRange     '0.1.5',
+41 silly addNameRange     '2.0.4',
+41 silly addNameRange     '1.0.9',
+41 silly addNameRange     '0.1.6',
+41 silly addNameRange     '2.0.3',
+41 silly addNameRange     '0.1.3',
+41 silly addNameRange     '2.0.2',
+41 silly addNameRange     '0.1.4',
+41 silly addNameRange     '1.0.7',
+41 silly addNameRange     '0.0.1',
+41 silly addNameRange     '0.5.0' ] ]
+42 verbose addNamed [ 'gulp-connect', '2.2.0' ]
+43 verbose addNamed [ '2.2.0', '2.2.0' ]
+44 silly lockFile 00c0891a-gulp-connect-2-2-0 gulp-connect@2.2.0
+45 verbose lock gulp-connect@2.2.0 /Users/jfeng/.npm/00c0891a-gulp-connect-2-2-0.lock
+46 silly lockFile 00c0891a-gulp-connect-2-2-0 gulp-connect@2.2.0
+47 silly lockFile 00c0891a-gulp-connect-2-2-0 gulp-connect@2.2.0
+48 silly lockFile 7e07fb61-gulp-connect gulp-connect@
+49 silly lockFile 7e07fb61-gulp-connect gulp-connect@
+50 http 404 http://repoprd.fngn.com:8081/artifactory/api/npm/npm-virtual/%E2%80%94-save
+51 verbose headers { server: 'Artifactory/3.6.0',
+51 verbose headers   'x-artifactory-id': '8d8e9564b6904b54:-2c3ec50f:14d269b5c7c:-8000',
+51 verbose headers   'content-type': 'application/json',
+51 verbose headers   'transfer-encoding': 'chunked',
+51 verbose headers   date: 'Wed, 29 Jul 2015 23:39:42 GMT' }
+52 silly registry.get cb [ 404,
+52 silly registry.get   { server: 'Artifactory/3.6.0',
+52 silly registry.get     'x-artifactory-id': '8d8e9564b6904b54:-2c3ec50f:14d269b5c7c:-8000',
+52 silly registry.get     'content-type': 'application/json',
+52 silly registry.get     'transfer-encoding': 'chunked',
+52 silly registry.get     date: 'Wed, 29 Jul 2015 23:39:42 GMT' } ]
+53 silly lockFile 0d530c5b-save —-save@
+54 silly lockFile 0d530c5b-save —-save@
+55 error 404 404 Not Found: artifactory
+55 error 404
+55 error 404 'artifactory' is not in the npm registry.
+55 error 404 You should bug the author to publish it
+55 error 404 It was specified as a dependency of 'sandbox'
+55 error 404
+55 error 404 Note that you can also install from a
+55 error 404 tarball, folder, or http url, or git url.
+56 error System Darwin 14.4.0
+57 error command "node" "/usr/local/bin/npm" "install" "gulp-connect" "—-save"
+58 error cwd /Users/jfeng/Code/sandbox
+59 error node -v v0.10.33
+60 error npm -v 1.4.28
+61 error code E404
+62 verbose exit [ 1, true ]
